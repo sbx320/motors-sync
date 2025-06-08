@@ -8,7 +8,7 @@ from datetime import datetime
 import numpy as np
 from . import z_tilt
 
-PLOT_PATH = '~/printer_data/config/adxl_results/motors_sync'
+PLOT_PATH = '/root/printer_data/config/adxl_results/motors_sync'
 PIN_MIN_TIME = 0.010            # Minimum wait time to enable hardware pin
 MOTOR_STALL_TIME = 0.100        # Minimum wait time to enable motor pin
 LEVELING_KINEMATICS = (         # Kinematics with interconnected axes
