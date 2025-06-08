@@ -1322,7 +1322,7 @@ class StatisticsManager:
         self.gcode.register_command(self.cmd_name, self.cmd_GET_STATS,
                                     desc=self.cmd_GET_STATS_help)
         # Variables
-        self.home_dir = os.path.dirname(os.path.realpath(__file__))
+        self.home_dir = os.path.dirname(os.path.realpath(PLOT_PATH))
         self.log_path = os.path.join(self.home_dir, log_name)
         self.error = ''
         # Checks
